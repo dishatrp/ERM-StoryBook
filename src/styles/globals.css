@@ -1,0 +1,209 @@
+/* If you touch this code, you will be executed */
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+  font-family: test;
+  src: url("/fonts/callheart/Callheart.ttf");
+}
+
+@font-face {
+  font-family: interDisplayBold;
+  src: url("/fonts/inter/InterDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: interDisplaySemiBold;
+  src: url("/fonts/inter/InterDisplay-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: latoSemiBold;
+  src: url("/fonts/lato/Lato-Semibold.ttf");
+}
+
+@font-face {
+  font-family: latoBold;
+
+  src: url("/fonts/lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: latoRegular;
+  src: url("/fonts/lato/Lato-Regular.ttf");
+}
+
+/* Default scroll for the entire project */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* width of the entire scrollbar */
+}
+
+.mask {
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(227, 227, 227); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(197, 197, 202); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(170, 170, 174);
+}
+
+.title-hover {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.title-hover:hover {
+  color: red;
+}
+
+#risk-badge-container,
+#risk-badge-container #badge,
+#risk-badge-container #badge-text {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+#risk-badge-container:hover #badge {
+  background: red !important;
+  color: white;
+}
+#risk-badge-container:hover #badge-text {
+  color: red;
+}
+.mask {
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+}
+
+.rotate-center {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* TreeView.css */
+.tree-node {
+  /* font-family: "Arial", sans-serif; */
+  margin-bottom: 8px;
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fffffff9;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.node-header:hover {
+  background-color: #f0f1f3;
+}
+
+.node-header span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.node-header .toggle-icon {
+  transform: rotate(0);
+}
+
+.node-header .toggle-icon.collapsed {
+  transform: rotate(-90deg);
+}
+
+.node-header button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.node-header button.add-button {
+  color: #007bff;
+}
+
+.node-header button.delete-button {
+  color: red;
+}
+
+.children {
+  margin-left: 20px;
+  border-left: 2px solid #eeeeee;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.children-collapsed {
+  display: none;
+}
+
+#zsiqbtn {
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+}

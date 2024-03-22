@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Pankaj",
+      "salary": "10000"
+    },
+    {
+      "name": "David",
+      "salary": "5000",
+      "id": 2
+    }
+  ],
+
+  "metadata": [
+    {
+      "employeeRange": [
+        "Less than 1000",
+        "1000-5000",
+        "5001-10000",
+        "10001-25000",
+        "25001-5000",
+        "50000+"
+      ],
+      "engageType": ["Internal Audit", "Perpetual", "External Audit"],
+      "revenewRange": [
+        "Less than $100m",
+        "$100m-$500m",
+        "$500m-$1Bn",
+        "$1Bn-$5Bn",
+        "$5Bn-$25Bn",
+        "$25Bn+"
+      ]
+    }
+  ]
+}

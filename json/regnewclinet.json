@@ -1,0 +1,770 @@
+{
+  "metaData": [
+    {
+      "MST_HDR_ID": "1",
+      "MASTER_TYPE": "CUST_EMPLOYEE_RANGE",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "3",
+          "DESC": "Less than 1000"
+        },
+        {
+          "MST_DTL_ID": "4",
+          "DESC": "1000-5000"
+        },
+        {
+          "MST_DTL_ID": "5",
+          "DESC": "5001-10000"
+        },
+        {
+          "MST_DTL_ID": "6",
+          "DESC": "10001-25000"
+        },
+        {
+          "MST_DTL_ID": "7",
+          "DESC": "25001-50000"
+        },
+        {
+          "MST_DTL_ID": "8",
+          "DESC": "50000+"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "2",
+      "MASTER_TYPE": "CUST_ENGAGEMENT_TYPE",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "9",
+          "DESC": "Internal Audit"
+        },
+        {
+          "MST_DTL_ID": "10",
+          "DESC": "Perpetual"
+        },
+        {
+          "MST_DTL_ID": "11",
+          "DESC": "External Audit"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "3",
+      "MASTER_TYPE": "CUST_REVENUE_RANGE",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "16",
+          "DESC": "Less than $100m"
+        },
+        {
+          "MST_DTL_ID": "17",
+          "DESC": "$100m-$500m"
+        },
+        {
+          "MST_DTL_ID": "18",
+          "DESC": "$500m-$1Bn"
+        },
+        {
+          "MST_DTL_ID": "19",
+          "DESC": "$1Bn-$5Bn"
+        },
+        {
+          "MST_DTL_ID": "20",
+          "DESC": "$5Bn-$25Bn"
+        },
+        {
+          "MST_DTL_ID": "21",
+          "DESC": "$25Bn+"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "4",
+      "MASTER_TYPE": "CUST_AUDITOR_NAMES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "22",
+          "DESC": "National Audit Office (NAO)"
+        },
+        {
+          "MST_DTL_ID": "23",
+          "DESC": "PwC"
+        },
+        {
+          "MST_DTL_ID": "24",
+          "DESC": "Deloitte"
+        },
+        {
+          "MST_DTL_ID": "25",
+          "DESC": "Ernst & Young"
+        },
+        {
+          "MST_DTL_ID": "26",
+          "DESC": "KPMG"
+        },
+        {
+          "MST_DTL_ID": "27",
+          "DESC": "Protiviti"
+        },
+        {
+          "MST_DTL_ID": "28",
+          "DESC": "RSM"
+        },
+        {
+          "MST_DTL_ID": "29",
+          "DESC": "BDO"
+        },
+        {
+          "MST_DTL_ID": "30",
+          "DESC": "Mazars"
+        },
+        {
+          "MST_DTL_ID": "31",
+          "DESC": "CFGI"
+        },
+        {
+          "MST_DTL_ID": "32",
+          "DESC": "Grant Thornton"
+        },
+        {
+          "MST_DTL_ID": "33",
+          "DESC": "Moore"
+        },
+        {
+          "MST_DTL_ID": "34",
+          "DESC": "Crowe"
+        },
+        {
+          "MST_DTL_ID": "35",
+          "DESC": "Others"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "5",
+      "MASTER_TYPE": "CUST_SOURCE_ERP_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "36",
+          "DESC": "Oracle EBS R12.1.3"
+        },
+        {
+          "MST_DTL_ID": "37",
+          "DESC": "Oracle Fusion"
+        },
+        {
+          "MST_DTL_ID": "38",
+          "DESC": "SAP ECC"
+        },
+        {
+          "MST_DTL_ID": "39",
+          "DESC": "SAP HANA"
+        },
+        {
+          "MST_DTL_ID": "40",
+          "DESC": "JD Edwards"
+        },
+        {
+          "MST_DTL_ID": "41",
+          "DESC": "PeopleSoft"
+        },
+        {
+          "MST_DTL_ID": "42",
+          "DESC": "NetSuite"
+        },
+        {
+          "MST_DTL_ID": "43",
+          "DESC": "WorkDay"
+        },
+        {
+          "MST_DTL_ID": "44",
+          "DESC": "Other ERPs"
+        },
+        {
+          "MST_DTL_ID": "124",
+          "DESC": "Sage"
+        },
+        {
+          "MST_DTL_ID": "125",
+          "DESC": "Oracle EPM Cloud"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "6",
+      "MASTER_TYPE": "CUST_DEPLOYMENT_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "45",
+          "DESC": "Shared Public Cloud -Azure"
+        },
+        {
+          "MST_DTL_ID": "46",
+          "DESC": "Shared Public Cloud - AWS"
+        },
+        {
+          "MST_DTL_ID": "47",
+          "DESC": "Shared Public Cloud - Google"
+        },
+        {
+          "MST_DTL_ID": "48",
+          "DESC": "Private Cloud"
+        },
+        {
+          "MST_DTL_ID": "49",
+          "DESC": "On Premise"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "7",
+      "MASTER_TYPE": "CUST_GEO_REGIONS",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "54",
+          "DESC": "NA"
+        },
+        {
+          "MST_DTL_ID": "55",
+          "DESC": "LAD"
+        },
+        {
+          "MST_DTL_ID": "56",
+          "DESC": "EMEA"
+        },
+        {
+          "MST_DTL_ID": "57",
+          "DESC": "APAC"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "8",
+      "MASTER_TYPE": "PRODUCT_FAMILY",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "58",
+          "DESC": "iRM"
+        },
+        {
+          "MST_DTL_ID": "59",
+          "DESC": "iMatrix"
+        },
+        {
+          "MST_DTL_ID": "60",
+          "DESC": "iAssurance"
+        },
+        {
+          "MST_DTL_ID": "61",
+          "DESC": "ERM"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "9",
+      "MASTER_TYPE": "CUST_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "65",
+          "DESC": "Technical Super Admin"
+        },
+        {
+          "MST_DTL_ID": "66",
+          "DESC": "Internal Partner (Account Manager)"
+        },
+        {
+          "MST_DTL_ID": "67",
+          "DESC": "External Partner (Customer)"
+        },
+        {
+          "MST_DTL_ID": "68",
+          "DESC": "End Customer"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "10",
+      "MASTER_TYPE": "CUST_COMPLIANCE_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "69",
+          "DESC": "SOX"
+        },
+        {
+          "MST_DTL_ID": "70",
+          "DESC": "HIPAA"
+        },
+        {
+          "MST_DTL_ID": "71",
+          "DESC": "UK SOX"
+        },
+        {
+          "MST_DTL_ID": "72",
+          "DESC": "ICA"
+        },
+        {
+          "MST_DTL_ID": "73",
+          "DESC": "JSOX"
+        },
+        {
+          "MST_DTL_ID": "74",
+          "DESC": "IFRS v 1.x"
+        },
+        {
+          "MST_DTL_ID": "75",
+          "DESC": "Others"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "11",
+      "MASTER_TYPE": "PAGE_TXN_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "76",
+          "DESC": "Create"
+        },
+        {
+          "MST_DTL_ID": "77",
+          "DESC": "Read"
+        },
+        {
+          "MST_DTL_ID": "78",
+          "DESC": "Update"
+        },
+        {
+          "MST_DTL_ID": "79",
+          "DESC": "(Soft) Delete"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "12",
+      "MASTER_TYPE": "DATASOURCE_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "126",
+          "DESC": "FILE UPLOAD(ZIP:XML)"
+        },
+        {
+          "MST_DTL_ID": "127",
+          "DESC": "SOAP API"
+        },
+        {
+          "MST_DTL_ID": "128",
+          "DESC": "REST API"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "13",
+      "MASTER_TYPE": "ASSESSMENT_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "129",
+          "DESC": "Digital Transformation - SAP ECC"
+        },
+        {
+          "MST_DTL_ID": "130",
+          "DESC": "Digital Transformation - SAP S4/HANA"
+        },
+        {
+          "MST_DTL_ID": "131",
+          "DESC": "Digital Transformation - Oracle eBS"
+        },
+        {
+          "MST_DTL_ID": "132",
+          "DESC": "Digital Transformation - Oracle Cloud"
+        },
+        {
+          "MST_DTL_ID": "133",
+          "DESC": "Digital Transformation - Workday"
+        },
+        {
+          "MST_DTL_ID": "134",
+          "DESC": "Digital Transformation - NetSuite"
+        },
+        {
+          "MST_DTL_ID": "135",
+          "DESC": "Digital Transformation - Other Finance ERP"
+        },
+        {
+          "MST_DTL_ID": "136",
+          "DESC": "Digital Transformation - Other HCM System"
+        },
+        {
+          "MST_DTL_ID": "137",
+          "DESC": "Upgrade Project"
+        },
+        {
+          "MST_DTL_ID": "138",
+          "DESC": "Ad Hoc Project / Program"
+        },
+        {
+          "MST_DTL_ID": "139",
+          "DESC": "Special Project"
+        },
+        {
+          "MST_DTL_ID": "140",
+          "DESC": "Custom Projects"
+        },
+        {
+          "MST_DTL_ID": "141",
+          "DESC": "Others"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "14",
+      "MASTER_TYPE": "MODULE_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "142",
+          "DESC": "Licenseable"
+        },
+        {
+          "MST_DTL_ID": "143",
+          "DESC": "Not-Licenseable"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "15",
+      "MASTER_TYPE": "CUSTOMER_KIND",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "144",
+          "DESC": "Administrative"
+        },
+        {
+          "MST_DTL_ID": "145",
+          "DESC": "Normal"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "16",
+      "MASTER_TYPE": "SIMULATION_KIND",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "146",
+          "DESC": "Role Simulation"
+        },
+        {
+          "MST_DTL_ID": "147",
+          "DESC": "SOD Simulation"
+        },
+        {
+          "MST_DTL_ID": "148",
+          "DESC": "User Simulation"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "17",
+      "MASTER_TYPE": "AUDIT_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "149",
+          "DESC": "Internal Audit"
+        },
+        {
+          "MST_DTL_ID": "150",
+          "DESC": "External Audit"
+        },
+        {
+          "MST_DTL_ID": "151",
+          "DESC": "Adhoc Audit"
+        },
+        {
+          "MST_DTL_ID": "152",
+          "DESC": "Special Audit"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "18",
+      "MASTER_TYPE": "RESPONSIBLE_ROLES_1",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "153",
+          "DESC": "Chief Executive Officer"
+        },
+        {
+          "MST_DTL_ID": "154",
+          "DESC": "Chief Financial Officer"
+        },
+        {
+          "MST_DTL_ID": "155",
+          "DESC": "Head Of Finance"
+        },
+        {
+          "MST_DTL_ID": "156",
+          "DESC": "Head Of IT"
+        },
+        {
+          "MST_DTL_ID": "157",
+          "DESC": "Issue Owner"
+        },
+        {
+          "MST_DTL_ID": "158",
+          "DESC": "Interviewee"
+        },
+        {
+          "MST_DTL_ID": "159",
+          "DESC": "Project Manager"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "19",
+      "MASTER_TYPE": "RESPONSIBLE_ROLES_2",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "160",
+          "DESC": "Auditor"
+        },
+        {
+          "MST_DTL_ID": "161",
+          "DESC": "Manager"
+        },
+        {
+          "MST_DTL_ID": "162",
+          "DESC": "Partner"
+        },
+        {
+          "MST_DTL_ID": "163",
+          "DESC": "Quality Reviwer"
+        },
+        {
+          "MST_DTL_ID": "164",
+          "DESC": "Reviewer"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "20",
+      "MASTER_TYPE": "RISK_SAMPLES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "165",
+          "DESC": "Unauthorized access"
+        },
+        {
+          "MST_DTL_ID": "166",
+          "DESC": "Fraud Detection"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "21",
+      "MASTER_TYPE": "RISK_RATINGS",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "167",
+          "DESC": "High"
+        },
+        {
+          "MST_DTL_ID": "168",
+          "DESC": "Medium"
+        },
+        {
+          "MST_DTL_ID": "169",
+          "DESC": "Low"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "22",
+      "MASTER_TYPE": "CONCLUSION_TYPES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "170",
+          "DESC": "Effective"
+        },
+        {
+          "MST_DTL_ID": "171",
+          "DESC": "Ineffective"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "23",
+      "MASTER_TYPE": "ERM_MASTER",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "177",
+          "DESC": "Organisation"
+        },
+        {
+          "MST_DTL_ID": "178",
+          "DESC": "Activities"
+        },
+        {
+          "MST_DTL_ID": "179",
+          "DESC": "Objectives"
+        },
+        {
+          "MST_DTL_ID": "180",
+          "DESC": "Risk and Opportunity"
+        },
+        {
+          "MST_DTL_ID": "181",
+          "DESC": "Others"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "24",
+      "MASTER_TYPE": "AUTHENTICATION",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "184",
+          "DESC": "IRM Auth"
+        },
+        {
+          "MST_DTL_ID": "185",
+          "DESC": "LDAP Auth"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "25",
+      "MASTER_TYPE": "SAP_ECC_MODULES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "186",
+          "DESC": "MM"
+        },
+        {
+          "MST_DTL_ID": "187",
+          "DESC": "BASIS"
+        },
+        {
+          "MST_DTL_ID": "188",
+          "DESC": "DMS"
+        },
+        {
+          "MST_DTL_ID": "189",
+          "DESC": "EHS"
+        },
+        {
+          "MST_DTL_ID": "190",
+          "DESC": "FICO"
+        },
+        {
+          "MST_DTL_ID": "191",
+          "DESC": "HR"
+        },
+        {
+          "MST_DTL_ID": "192",
+          "DESC": "IVL"
+        },
+        {
+          "MST_DTL_ID": "193",
+          "DESC": "PM"
+        },
+        {
+          "MST_DTL_ID": "194",
+          "DESC": "PP"
+        },
+        {
+          "MST_DTL_ID": "195",
+          "DESC": "PS"
+        },
+        {
+          "MST_DTL_ID": "196",
+          "DESC": "QM"
+        },
+        {
+          "MST_DTL_ID": "197",
+          "DESC": "SD"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "27",
+      "MASTER_TYPE": "TOKEN_TYPE",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "198",
+          "DESC": "FORGET_PASSWORD"
+        },
+        {
+          "MST_DTL_ID": "199",
+          "DESC": "EMAIL_VERIFICATION"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "28",
+      "MASTER_TYPE": "WORKDAY_MODULES",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "200",
+          "DESC": "HCM"
+        },
+        {
+          "MST_DTL_ID": "201",
+          "DESC": "FM"
+        },
+        {
+          "MST_DTL_ID": "202",
+          "DESC": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "29",
+      "MASTER_TYPE": "DATABASE",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "203",
+          "DESC": "Berkeley DB"
+        },
+        {
+          "MST_DTL_ID": "204",
+          "DESC": "MySQL"
+        },
+        {
+          "MST_DTL_ID": "205",
+          "DESC": "MSSQL"
+        },
+        {
+          "MST_DTL_ID": "206",
+          "DESC": "Oracle DB"
+        }
+      ]
+    },
+    {
+      "MST_HDR_ID": "30",
+      "MASTER_TYPE": "BUSINESS_PROCESS",
+      "MST_DTL": [
+        {
+          "MST_DTL_ID": "207",
+          "DESC": "Procure to Pay"
+        },
+        {
+          "MST_DTL_ID": "208",
+          "DESC": "Order to Cash"
+        },
+        {
+          "MST_DTL_ID": "209",
+          "DESC": "Record to Report"
+        },
+        {
+          "MST_DTL_ID": "210",
+          "DESC": "Hire to Retire"
+        },
+        {
+          "MST_DTL_ID": "211",
+          "DESC": "Information Technology"
+        },
+        {
+          "MST_DTL_ID": "212",
+          "DESC": "Admin"
+        }
+      ]
+    }
+  ]
+}
